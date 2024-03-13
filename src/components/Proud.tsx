@@ -2,7 +2,7 @@ import React from "react";
 
 const Proud = () => {
   return (
-    <div className="bg-black text-white py-20">
+    <div className="bg-black text-white py-20 px-4">
       <div className="max-w-xl mx-auto  text-center space-y-4">
         <h4 className="text-2xl md:text-3xl lg:text-4xl font-semibold ">
           We are proud.

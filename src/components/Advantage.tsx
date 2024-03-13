@@ -3,8 +3,8 @@ import React from "react";
 const Advantage = () => {
   return (
     <div className="min-h-screen hero">
-      <div className=" min-h-screen bg-black/80 text-white w-full h-full py-16">
-        <div className="max-w-6xl  w-full mx-auto h-full grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className=" min-h-screen p-4 bg-black/80 text-white w-full h-full py-16 flex flex-col justify-center">
+        <div className="max-w-6xl  w-full  mx-auto h-full grid grid-cols-1 md:grid-cols-2 place-items-center gap-8">
           <div className="space-y-4">
             <h4 className="text-xl md:text-3xl lg:text-5xl font-semibold">
               The GM Training Advantage

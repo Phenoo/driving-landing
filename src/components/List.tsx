@@ -13,27 +13,27 @@ const List = () => {
     },
     {
       label: "About",
-      url: "/about",
+      url: "/",
     },
     {
       label: "Services",
-      url: "/services",
+      url: "/",
     },
     {
       label: "Projects",
-      url: "/projects",
+      url: "/",
     },
     {
       label: "Blogs",
-      url: "/blogs",
+      url: "/",
     },
     {
       label: "Contact",
-      url: "/contact",
+      url: "/",
     },
   ];
   return (
-    <ul className="site-menu-main flex gap-4">
+    <ul className="site-menu-main md:flex gap-4 hidden ">
       {navigation?.map((item, i) => (
         <li key={i} className="nav-item nav-item-has-children">
           <Link

@@ -4,7 +4,7 @@ import "./globals.css";
 import "./styles.scss";
 
 import Navigation from "@/components/common/nav-bar";
-import Footer from "@/components/Footer";
+import FootTest from "@/components/FootTest";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,7 +23,7 @@ export default function RootLayout({
       <body>
         <Navigation />
         {children}
-        <Footer />
+        <FootTest />
       </body>
     </html>
   );

@@ -11,7 +11,7 @@ import { Button } from "./ui/button";
 
 const Pricing = () => {
   return (
-    <div className="bg-black py-20 text-white">
+    <div className="bg-black py-20 text-white p-4">
       <div className="flex flex-col justify-center items-center w-full space-y-4  max-w-xl mx-auto text-center gap-4">
         <h4 className="text-2xl md:text-3xl lg:text-4xl font-semibold">
           Price that is affordable
@@ -22,8 +22,8 @@ const Pricing = () => {
           laboriosam quos
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center max-w-6xl mx-auto my-10">
-        <Card className="w-full md:w-[350px] bg-neutral-800 text-white  border-none">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center max-w-6xl gap-8 mx-auto my-10">
+        <Card className="w-[340px] sm:w-[350px] bg-neutral-800 text-white  border-none">
           <CardHeader>
             <CardTitle className="text-center md:text-3xl">
               Test one of our locations
@@ -66,7 +66,7 @@ const Pricing = () => {
             </CardFooter>
           </CardContent>
         </Card>
-        <Card className="w-full md:w-[350px] bg-primary text-black  border-none">
+        <Card className="w-[340px] sm:w-[350px] bg-primary text-black  border-none">
           <CardHeader>
             <CardTitle className="text-center md:text-3xl">
               6 hour safe driving course
@@ -109,7 +109,7 @@ const Pricing = () => {
             </CardFooter>
           </CardContent>
         </Card>
-        <Card className="w-full md:w-[350px] bg-neutral-800 text-white  border-none">
+        <Card className="w-[340px] sm:w-[350px] bg-neutral-800 text-white  border-none">
           <CardHeader>
             <CardTitle className="text-center md:text-3xl">
               Full driver&apos;s education course

@@ -8,9 +8,9 @@ import quote from "@/assets/quote.png";
 
 const Review = () => {
   return (
-    <div className="bg-[#111] text-white py-20">
+    <div className="bg-[#111] text-white py-20 px-4">
       <div className="max-w-5xl mx-auto items-center flex gap-8">
-        <div className="w-2/5">
+        <div className="w-2/5 hidden md:flex">
           <img
             src="https://github.com/shadcn.png"
             alt="avatr"

@@ -43,7 +43,7 @@ export function HeroCard({ className, ...props }: CardProps) {
   return (
     <Card
       className={cn(
-        "w-[380px] text-white bg-neutral-800 border-none space-y-4",
+        "w-[380px] md:w-[400px] sm:w-[450px]  text-white bg-neutral-800 border-none space-y-4",
         className
       )}
       {...props}

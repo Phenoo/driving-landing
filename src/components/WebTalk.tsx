@@ -9,7 +9,7 @@ const WebTalk = () => {
           See what our learners said about us on social media
         </h4>
       </div>
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 place-items-center social my-20">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 place-items-center social my-20">
         <SocialCard />
         <SocialCard />
         <SocialCard />

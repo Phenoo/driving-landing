@@ -21,7 +21,7 @@ const Trainers = () => {
     },
   ];
   return (
-    <div className="bg-black text-white py-20 grad bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit ">
+    <div className="gradient px-4  text-white py-20 min-h-screen flex justify-center items-center flex-col">
       <div className="max-w-xl mx-auto space-y-4 text-center">
         <h4 className="text-2xl md:text-3xl lg:text-4xl font-semibold">
           Our Trainers

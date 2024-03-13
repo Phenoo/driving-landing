@@ -32,7 +32,7 @@ const Navigation = () => {
       )}
       aria-label="Navigation"
     >
-      <div className="flex justify-between w-full items-center py-4 md:py-6 px-4 md:px-8 lg:px-12">
+      <div className="flex justify-between w-full items-center py-6 md:py-8 px-4 md:px-8 lg:px-12">
         <Logo />
         <List />
         <Button>Enroll Now</Button>

@@ -16,10 +16,10 @@ const Footer = () => {
     {
       title: "Quick Links",
       links: [
-        { name: "About us", url: "/about" },
-        { name: "Projects", url: "/projects" },
-        { name: "Services", url: "/services" },
-        { name: "Contact Us", url: "/contact" },
+        { name: "About us", url: "/" },
+        { name: "Projects", url: "/" },
+        { name: "Services", url: "/" },
+        { name: "Contact Us", url: "/" },
       ],
     },
   ];
@@ -27,7 +27,7 @@ const Footer = () => {
   return (
     <footer className="bg-black text-white py-16">
       <div className="max-w-6xl mx-auto">
-        <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <Logo />
             <br />
@@ -49,7 +49,7 @@ const Footer = () => {
           </div>
           {footerItems.map((item, i) => (
             <div key={i}>
-              <h4 className=" mb-4 font-semibold">{item.title}</h4>
+              <h4 className=" mb-2 font-semibold">{item.title}</h4>
               <ul className="space-y-3">
                 {item.links.map((link, i) => (
                   <li key={i + item.title}>
@@ -86,6 +86,10 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <br />
+      <p className="text-sm text-center text-white">
+        &copy; GM Training Copyright 2014
+      </p>
     </footer>
   );
 };

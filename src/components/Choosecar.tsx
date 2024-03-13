@@ -11,8 +11,8 @@ import {
 
 const Choosecar = () => {
   return (
-    <div className="bg-[#111] text-white py-20">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+    <div className="bg-[#111] text-white py-20 px-4">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl  place-items-center mx-auto">
         <div className="space-y-8">
           <h4 className="text-xl md:text-3xl lg:text-5xl font-semibold">
             Why choose GM car training
@@ -55,7 +55,6 @@ const Choosecar = () => {
               </p>
             </div>
           </div>
-          <Button className="md:h-16 w-2/4 text-lg">Start at $120 only</Button>
         </div>
 
         <div>

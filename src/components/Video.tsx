@@ -9,7 +9,7 @@ const Video = () => {
   const [toggler, setToggler] = useState(false);
 
   return (
-    <div className="bg-black relative py-20 h-screen overflow-hidden">
+    <div className="bg-black relative py-32 overflow-hidden">
       <div className="bg-primary h-80 w-full">
         <div className="max-w-xl mx-auto text-center">
           <h4 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-center py-10">
@@ -17,7 +17,7 @@ const Video = () => {
           </h4>
         </div>
       </div>
-      <div className="absolute top-40 md:top-56 w-full bg-transparent">
+      <div className="absolute top-36 md:top-40 w-full bg-transparent">
         <div className="flex justify-center h-[500px] items-center relative m-4">
           <Image
             src={
@@ -28,7 +28,7 @@ const Video = () => {
             className="object-contain w-full h-full"
           />
           <div className="absolute">
-            <button className="btn-play sonar-emitter">
+            <button className="btn-play sonar-emitter sunshines">
               <Play />
             </button>
           </div>
